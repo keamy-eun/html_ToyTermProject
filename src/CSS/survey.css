@@ -1,0 +1,26 @@
+.answer-align {
+  display: flex;
+  justify-content: space-around;
+}
+
+* {
+  border: none;
+}
+tr {
+  padding: 10px;
+}
+
+.main-align {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0px auto;
+  width: 600px;
+}
+
+.button-align {
+  border: 1px solid black;
+  margin: 30px 40% 20px 40%;
+  padding: 7px 20px;
+  font-size: 15px;
+  background-color: rgb(197, 197, 197);
+}
