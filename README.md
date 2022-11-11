@@ -1,6 +1,6 @@
 # 이어폰 관련 설문조사 및 통계 사이트
 
-![img](C:\Develops\html_ToyTermProject\html_ToyTermProject\docs\img\img.JPG)
+<img src="https://github.com/keamy-eun/html_ToyTermProject/blob/master/docs/img/img.JPG?raw=true">
 
 ## 프로잭트 내용: HTML/CSS 활용 UI구현
 
