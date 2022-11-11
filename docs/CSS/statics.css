@@ -19,7 +19,7 @@ li {
 }
 
 img {
-  width: 500px;
+  width: 450px;
 }
 
 .div1 {
@@ -30,8 +30,7 @@ img {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 50px;
-  margin-left: 20%;
+  margin: 40px auto 0px 20%;
 }
 
 .display-flex-row {
