@@ -19,11 +19,12 @@
             >
           </div>
           <div class="display-flex-row main-menu font-size-20px">
-            <div><a href="../html/main.html">HOME</a></div>
-            <div><a href="../html/statics.html">통계</a></div>
-            <div><a href="../html/survey.html">설문</a></div>
-            <div><a href="../html/login.html">로그인</a></div>
-            <div><a href="../html/signUp.html">회원가입</a></div>
+            <div><a href="../html/main.html" class="deco-none">HOME</a></div>
+          <div><a href="../html/statics.html" class="deco-none">통계</a></div>
+          <div><a href="../html/survey.html" class="deco-none">설문</a></div>
+          <div><a href="../html/login.html" class="deco-none">로그인</a></div>
+          <div>
+            <a href="../html/signUp.html" class="deco-none">회원가입</a>
           </div>
         </div>
       </div>
@@ -33,10 +34,65 @@
       <div class="display-flex-column background-color-main">
         <div class="padding_top font-size-30px">회원가입</div>
         <div class="padding-main-top font-size-20px">
-          <div class="justify-contents-space-around padding-top">
+          <table >
+            <tr>
+              <td>이름</td>
+              <td>
+                <input
+              class="textbox-width margin-left14-8"
+              type="text"
+              name="name"
+            />
+              </td>
+            </tr>
+            <tr>
+              <td>비밀번호</td>
+              <td>
+                <input
+              class="textbox-width margin-left14-8"
+              type="text"
+              name="pw"
+            />
+              </td>
+            </tr>
+            <tr>
+              <td>비밀번호 확인</td>
+              <td>
+                <input
+              class="textbox-width margin-left14-8"
+              type="text"
+              name="pwCheck"
+            />
+              </td>
+            </tr>
+            <tr>
+              <td>생년월일</td>
+              <td>
+                <input
+              class="textbox-width margin-left14-8"
+              type="text"
+              name="birth"
+            />
+              </td>
+            </tr>
+            <tr>
+              <td>이메일 주소</td>
+              <td><input
+                class="textbox-width margin-left14-8"
+                type="text"
+                name="emailAddress"
+              /></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            
+            
+          </table>
+          <!-- <div class="justify-contents-space-around padding-top">
             <label for="">이름</label>
             <input
-              class="textbox-width margin-left15"
+              class="textbox-width margin-left14-8"
               type="text"
               name="name"
             />
@@ -48,7 +104,7 @@
           <div class="justify-contents-space-around padding-main-height">
             <label for="">비밀번호 확인</label>
             <input
-              class="textbox-width margin-left5"
+              class="textbox-width margin-left4"
               name="pwCheck"
               type="text"
             />
@@ -64,11 +120,11 @@
           <div class="justify-contents-space-around padding-main-height">
             <label for="">이메일 주소</label>
             <input
-              class="textbox-width margin-left5"
+              class="textbox-width margin-left7"
               name="emailAddress"
               type="text"
             />
-          </div>
+          </div>-->
           <div class="justify-contents-space-around padding-main-height">
             <label for=""
               >광고 수신여부 : SMS<input
@@ -78,7 +134,7 @@
               / Email<input type="checkbox" name="receive_ad_email" />
               로 수신하겠습니다
             </label>
-          </div>
+          </div> 
         </div>
         <div>
           <button type="submit" class="signup-button">Sign Up</button>
