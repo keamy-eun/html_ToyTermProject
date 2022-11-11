@@ -25,6 +25,8 @@
 }
 .background-color-main {
   background-color: rgb(250, 250, 250);
+  border: rgb(250, 250, 250);
+  margin: rgb(250, 250, 250);
 }
 .display-flex-items-end {
   display: flex;
@@ -32,4 +34,7 @@
 }
 .padding_top {
   padding: 10%;
+}
+.padding-address {
+  padding: 2%;
 }
