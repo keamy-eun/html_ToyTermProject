@@ -22,7 +22,7 @@ aside {
   color: white;
   background-color: rgb(91, 69, 151);
 }
-div {
+.div1 {
   display: flex;
   justify-content: space-around;
 }
@@ -63,4 +63,8 @@ li {
 .display-flex-column {
   display: flex;
   flex-direction: column;
+}
+.padding-address {
+  padding: 2%;
+  padding-top: 10%;
 }

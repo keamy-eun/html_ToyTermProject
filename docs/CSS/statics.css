@@ -22,15 +22,16 @@ img {
   width: 500px;
 }
 
-div {
+.div1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .first-align {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 50px;
+  margin-left: 20%;
 }
 
 .display-flex-row {
@@ -60,4 +61,7 @@ div {
 .display-flex-column {
   display: flex;
   flex-direction: column;
+}
+.padding-address {
+  padding: 2%;
 }
