@@ -67,40 +67,15 @@ HTML_ToyTermProject
 #### row & col을 사용하여 정렬이 간편하고 table-striped-columns으로 table 요소들을 구별지을 수 있다.
 
 ```
-      <div class="col-5 text-center mt-5 container">
+      <div class="col-5">
         <table class="table table-bordered table-striped-columns">
           <thead>
             <tr>
               <th colspan="2">2021 업체별 이어폰 시장 점유율</th>
             </tr>
-            <tr>
-              <td>애플</td>
-              <td>26%</td>
-            </tr>
-            <tr>
-              <td>삼성</td>
-              <td>7%</td>
-            </tr>
-            <tr>
-              <td>UBL</td>
-              <td>4%</td>
-            </tr>
-            <tr>
-              <td>Skullcandy</td>
-              <td>4%</td>
-            </tr>
-            <tr>
-              <td>QCY</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>boat</td>
-              <td>3%</td>
-            </tr>
-            <tr>
-              <td>기타</td>
-              <td>53%</td>
-            </tr>
+
+            ...
+
           </thead>
         </table>
       </div>
